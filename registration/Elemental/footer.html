@@ -1,0 +1,84 @@
+<section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4"
+        style="padding-top:0px; padding-bottom:0px;background-color: rgb(240, 240, 240);">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-10"><br><br></div>
+            </div>
+        </div>
+    </section>
+    <section data-bs-version="5.1" class="footer3 cid-sFAOjz8nX7 mbr-reveal" once="footers" id="footer3-1">
+
+        <div class="container">
+            <div class="media-container-row align-center mbr-white">
+
+
+                <div class="row row-copirayt">
+                    <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
+                        © Copyright 2023 DM. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        function myFunction() {
+            var mycont = document.getElementsByClassName('item');
+
+            for (let j = 0; j < mycont.length; j++) {
+                var tag = mycont[j].getAttribute('data-type')
+
+                check_tag = document.getElementsByClassName('cat');
+                var tag_list = [];
+                for (let k = 0; k < check_tag.length; k++) {
+                    if (check_tag[k].children[0].children[0].checked) {
+                        tag_list.push(check_tag[k].children[0].children[0].value);
+                    }
+                }
+                if (tag_list.length > 0) {
+                    if (tag_list.includes('Reset')) {
+                        mycont[j].setAttribute('style', 'display:block;')
+                    }
+                    else {
+                        if (CheckInclude(tag_list, tag)) {
+                            mycont[j].setAttribute('style', 'display:block;');
+                        }
+                        else {
+                            mycont[j].setAttribute('style', 'display:none;');
+                        }
+                    }
+                }
+                else {
+                    //console.log(tag_list.length);
+                    mycont[j].setAttribute('style', 'display:block;')
+                }
+
+            }
+            div_hide();
+        }
+
+        function reseter() {
+            var check_tag = document.getElementsByClassName('tag')
+            for (let i = 0; i < check_tag.length; i++) {
+                check_tag[i].checked = false
+            }
+        }
+
+
+
+
+    </script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/smoothscroll/smooth-scroll.js"></script>
+    <script src="assets/ytplayer/index.js"></script>
+    <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+    <script src="assets/theme/js/script.js"></script>
+    <script src="main.js"></script>
+
+    <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i
+                class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+                <html>
+                <head>
+                    <title>What I learned from Coding 10+ Hours a day</title>
+                <?php include_once 'Elemental/header.php'; ?><section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4" style="padding-top:0px; padding-bottom:0px;background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9"><br><br><h5> This article is reformatted from originally published at <a href="https://medium.com/@sushaanshakya88/what-i-learned-from-coding-10-hours-a-day-912366cdab57"><strong>TDS(Towards Data Science)</strong></a></h5></br><h5> <a href="https://medium.com/@sushaanshakya88?source=post_page-----912366cdab57--------------------------------">Author : Sushan Shakya</a> </h5></div></div></div></section><section data-bs-version="5.1" class="content4 cid-tt5SM2WLsM" id="content4-2" style="padding-top:0px; padding-bottom:0px; background-color: rgb(255, 255, 255);">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="title col-md-12 col-lg-9">
+                        <h3 class="mbr-section-title mbr-fonts-style mb-4 display-2">
+                            <strong>What I learned from Coding 10+ Hours a day</h3></div></div></div></section><section data-bs-version="5.1" class="image3 cid-tt612oXwA9" id="image3-5" style="padding-top:0px; padding-bottom:0px; background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-9">
+                <div class="image-wrapper"><div class="image_style" style="width:96%;"><picture><source sizes="(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 700px" srcset="https://miro.medium.com/v2/resize:fit:640/0*8fQKCvVJ1Aq-iTBR 640w, https://miro.medium.com/v2/resize:fit:720/0*8fQKCvVJ1Aq-iTBR 720w, https://miro.medium.com/v2/resize:fit:750/0*8fQKCvVJ1Aq-iTBR 750w, https://miro.medium.com/v2/resize:fit:786/0*8fQKCvVJ1Aq-iTBR 786w, https://miro.medium.com/v2/resize:fit:828/0*8fQKCvVJ1Aq-iTBR 828w, https://miro.medium.com/v2/resize:fit:1100/0*8fQKCvVJ1Aq-iTBR 1100w, https://miro.medium.com/v2/resize:fit:1400/0*8fQKCvVJ1Aq-iTBR 1400w" type="image/webp"/><source data-testid="og" sizes="(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 700px" srcset="https://miro.medium.com/v2/resize:fit:640/0*8fQKCvVJ1Aq-iTBR 640w, https://miro.medium.com/v2/resize:fit:720/0*8fQKCvVJ1Aq-iTBR 720w, https://miro.medium.com/v2/resize:fit:750/0*8fQKCvVJ1Aq-iTBR 750w, https://miro.medium.com/v2/resize:fit:786/0*8fQKCvVJ1Aq-iTBR 786w, https://miro.medium.com/v2/resize:fit:828/0*8fQKCvVJ1Aq-iTBR 828w, https://miro.medium.com/v2/resize:fit:1100/0*8fQKCvVJ1Aq-iTBR 1100w, https://miro.medium.com/v2/resize:fit:1400/0*8fQKCvVJ1Aq-iTBR 1400w"/><img alt="" loading="lazy" role="presentation" src="https://miro.medium.com/v2/resize:fit:700/0*8fQKCvVJ1Aq-iTBR"></picture></div><br></div></div></div></div></section><section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4" style="padding-top:0px; padding-bottom:0px;background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9"><p class="ff3" style="font-size:22px;">10+ Hours a day might seem like a bluff to most of you but I was really doing it.</p></div></div></div></section><section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4" style="padding-top:0px; padding-bottom:0px;background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9"><p class="ff3" style="font-size:22px;">I used to wake up at 4 in the morning and then I slept off at 10. This was the time when I was working 3 (developer) jobs at the same time.</p></div></div></div></section><section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4" style="padding-top:0px; padding-bottom:0px;background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9"><p class="ff3" style="font-size:22px;">All of this started from wanting to make a lot of money fast. I had joined a startup where I thought I could make a decent amount of pocket money (Spoiler alert I didn’t make no shit). The startup job wasn’t enough to pay the bills so I took up a freelance project to support myself. To be honest, the only money I was making was from the freelance project. It was the time of vacation so I didn’t have college. Then I saw this cool part time (developer) job post where I only had to work 4 hours a day and they’d give me Rs. 15,000 for a month. I applied for it and was selected. Now, starts the story of excessive coding.</p></div></div></div></section><section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4" style="padding-top:0px; padding-bottom:0px;background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9"><h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">The Timetable</h4></div></div></div></section><section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4" style="padding-top:0px; padding-bottom:0px;background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9"><p class="ff3" style="font-size:22px;">Woke up in the morning at 4 am and started coding (usually around 5 am) and then I’d code for ~3 to 4 hours for the part time job. I’ll tell you, the part time job was the worst. They had a tracking software which used to track all of my movements, capture screenshots in regular intervals and keep track of the exact time for which I was working. This was the most stressful of all. If all I had to do was get the job done then it’d be a hell lot easier. I’d usually get the job done in 1–2 hours. Then I had to waste the remaining time doing “research” ( in reality I would just open YouTube and play useless tutorials ).<br></br><strong>Lesson #1</strong> Avoid these kinds of job at all cost.</p></div></div></div></section><section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4" style="padding-top:0px; padding-bottom:0px;background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9"><p class="ff3" style="font-size:22px;">I used to go to the startup job around 11am and then return back at 5pm. I had the most fun doing this job. The agreement was that I would receive project wise payment which I thought was super awesome because I was very fast as I had a good typing speed. But it turned out to be worthless financially because even though the project was completed the payment would be held off for like 6 months ༼ つ ◕_◕ ༽つ<br></br>I had all the freedom I could want. I mean they were not paying me to do it right ? ¯\_(ツ)_/¯ <br></br><mark>Lesson#2</mark><mark> Don’t work in startups that don’t pay you monthly salary.</mark><br></br>I’ve had a lot of friends that went through the same shit. They’d work their ass off and then the payment would not happen.</p></div></div></div></section><section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4" style="padding-top:0px; padding-bottom:0px;background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9"><p class="ff3" style="font-size:22px;">Then when I reached home at 6pm, I had to start working on the freelance project which I took up and also complete the time quota for the part time job if it hadn’t been met during the morning (Argh….. ). I’d do that up until 10pm then when it got to 10 pm my eyes would be so tired that as soon as I’d lay on my bed I would feel nothing and then I’d wake up tomorrow directly.</p></div></div></div></section><section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4" style="padding-top:0px; padding-bottom:0px;background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9"><p class="ff3" style="font-size:22px;">In my theoretical calculation I was making Rs. 50k per month. But that was not even close. The startup was the shittiest in terms of payment and I couldn’t make a lot of money out of the freelance project as I was too naive and didn’t ask for a lot of money. I believe that even after working 3 jobs I’d barely make Rs. 30k a month.</p></div></div></div></section><section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4" style="padding-top:0px; padding-bottom:0px;background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9"><p class="ff3" style="font-size:22px;">It was too much for my body to take. I quit the part time job out of stress of being constantly watched over. Left the startup as there was no financial growth and completed the freelance project. This insane spree of coding 10+ hours a day didn’t last for more than 2 months. It was unsustainable as my health was on the line. My eyes took a hit and my hands showed <a href="https://orthoinfo.aaos.org/en/diseases--conditions/carpal-tunnel-syndrome/#:~:text=Carpal%20tunnel%20syndrome%20is%20a,syndrome%20gets%20worse%20over%20time." target="_self">carpal tunnel syndrome</a> symptoms.</p></div></div></div></section><section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4" style="padding-top:0px; padding-bottom:0px;background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9"><p class="ff3" style="font-size:22px;">The only good thing that came out of all of this was my experience level increased exponentially. Now, the amount of confidence I feel while coding is unparallel.</p></div></div></div></section><section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4" style="padding-top:0px; padding-bottom:0px;background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9"><p class="ff3" style="font-size:22px;">I believe the reason I was able to pull off 3 (developer) jobs at the same time is due to my immense love for programming. If your passion happens to be your job you won’t have any problem with it.</p></div></div></div></section><section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4" style="padding-top:0px; padding-bottom:0px;background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-10">
+            <br>
+                <hr class="hr5">
+            <br>
+            </div>
+        </div>
+    </div>
+</section><section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4" style="padding-top:0px; padding-bottom:0px;background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9"><p class="ff3" style="font-size:22px;">So the finally question is, <br></br><strong>Was it worth it ?</strong></p></div></div></div></section><section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4" style="padding-top:0px; padding-bottom:0px;background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9"><p class="ff3" style="font-size:22px;">Financially, NO !!<br></br>But the experience, TOO MUCH FUN !</p></div></div></div></section><?php include_once 'Elemental/footer.php'; ?>

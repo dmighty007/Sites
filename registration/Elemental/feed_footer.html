@@ -1,0 +1,191 @@
+<section data-bs-version="5.1" class="content5 cid-tt5UseJ9wk" id="content5-4"
+        style="margin:0;padding-top:0px; padding-bottom:0px;background-color: rgb(240, 240, 240);">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-10"><br><br></div>
+            </div>
+        </div>
+    </section>
+    <section data-bs-version="5.1" class="footer3 cid-sFAOjz8nX7 mbr-reveal" once="footers" id="footer3-1">
+
+        <div class="container">
+            <div class="media-container-row align-center mbr-white">
+
+
+                <div class="row row-copirayt">
+                    <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
+                        © Copyright 2023 DM. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function showForYou() {
+            tab1 = document.getElementById("forYou");
+            tab2 = document.getElementById("follow");
+            tab3 = document.getElementById("ml");
+            tab4 = document.getElementById("dl");
+            tab5 = document.getElementById("math");
+            tab6 = document.getElementById("coding");
+            tab1.setAttribute('style', "display:block");
+            tab2.setAttribute('style', "display:none");
+            tab3.setAttribute('style', "display:none");
+            tab4.setAttribute('style', "display:none");
+            tab5.setAttribute('style', "display:none");
+            tab6.setAttribute('style', "display:none");
+
+
+            if (history.pushState) {
+                var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?query=for';
+                window.history.pushState({path:newurl},'',newurl);
+            }
+        }
+        function showFollow() {
+            a = document.getElementsByClassName('nav-link');
+            a[1].setAttribute('class', 'nav-link mbr-fonts-style show active display-7')
+            a[0].setAttribute('class', 'nav-link mbr-fonts-style display-7')
+            tab1 = document.getElementById("forYou");
+            tab2 = document.getElementById("follow");
+            tab3 = document.getElementById("ml");
+            tab4 = document.getElementById("dl");
+            tab5 = document.getElementById("math");
+            tab6 = document.getElementById("coding");
+            tab1.setAttribute('style', "display:none");
+            tab2.setAttribute('style', "display:block");
+            tab3.setAttribute('style', "display:none");
+            tab4.setAttribute('style', "display:none");
+            tab5.setAttribute('style', "display:none");
+            tab6.setAttribute('style', "display:none");
+            if (history.pushState) {
+                var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?query=follow';
+                window.history.pushState({path:newurl},'',newurl);
+            }
+        }
+        function showML() {
+            tab1 = document.getElementById("forYou");
+            tab2 = document.getElementById("follow");
+            tab3 = document.getElementById("ml");
+            tab4 = document.getElementById("dl");
+            tab5 = document.getElementById("math");
+            tab6 = document.getElementById("coding");
+            tab1.setAttribute('style', "display:none");
+            tab2.setAttribute('style', "display:none");
+            tab3.setAttribute('style', "display:block");
+            tab4.setAttribute('style', "display:none");
+            tab5.setAttribute('style', "display:none");
+            tab6.setAttribute('style', "display:none");
+            if (history.pushState) {
+                var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?query=ML';
+                window.history.pushState({path:newurl},'',newurl);
+            }
+        }
+        function showDL() {
+            tab1 = document.getElementById("forYou");
+            tab2 = document.getElementById("follow");
+            tab3 = document.getElementById("ml");
+            tab4 = document.getElementById("dl");
+            tab5 = document.getElementById("math");
+            tab6 = document.getElementById("coding");
+            tab1.setAttribute('style', "display:none");
+            tab2.setAttribute('style', "display:none");
+            tab3.setAttribute('style', "display:none");
+            tab4.setAttribute('style', "display:block");
+            tab5.setAttribute('style', "display:none");
+            tab6.setAttribute('style', "display:none");
+            if (history.pushState) {
+                var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?query=DL';
+                window.history.pushState({path:newurl},'',newurl);
+            }
+        }
+        function showMath() {
+            tab1 = document.getElementById("forYou");
+            tab2 = document.getElementById("follow");
+            tab3 = document.getElementById("ml");
+            tab4 = document.getElementById("dl");
+            tab5 = document.getElementById("math");
+            tab6 = document.getElementById("coding");
+            tab1.setAttribute('style', "display:none");
+            tab2.setAttribute('style', "display:none");
+            tab3.setAttribute('style', "display:none");
+            tab4.setAttribute('style', "display:none");
+            tab5.setAttribute('style', "display:block");
+            tab6.setAttribute('style', "display:none");
+            if (history.pushState) {
+                var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?query=math';
+                window.history.pushState({path:newurl},'',newurl);
+            }
+        }
+        function showCode() {
+            tab1 = document.getElementById("forYou");
+            tab2 = document.getElementById("follow");
+            tab3 = document.getElementById("ml");
+            tab4 = document.getElementById("dl");
+            tab5 = document.getElementById("math");
+            tab6 = document.getElementById("coding");
+            tab1.setAttribute('style', "display:none");
+            tab2.setAttribute('style', "display:none");
+            tab3.setAttribute('style', "display:none");
+            tab4.setAttribute('style', "display:none");
+            tab5.setAttribute('style', "display:none");
+            tab6.setAttribute('style', "display:block");
+            if (history.pushState) {
+                var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?query=code';
+                window.history.pushState({path:newurl},'',newurl);
+            }
+        }
+        
+        if (performance.navigation.type == 1) {
+            showForYou();
+        }
+
+
+        else if (performance.navigation.type == 2) {
+            var prv_url = window.location.href;
+            if (prv_url.includes('follow')){
+                a = document.getElementsByClassName('nav-link');
+                a[1].setAttribute('class', 'nav-link mbr-fonts-style show active display-7')
+                a[0].setAttribute('class', 'nav-link mbr-fonts-style display-7')
+                showFollow();
+
+                }
+            else if (prv_url.includes('for')){
+            showForYou();
+                    }
+            else if (prv_url.includes('ML')){
+            showML();
+            }
+            else if (prv_url.includes('DL')){
+            showDL();
+            }
+            else if (prv_url.includes('math')){
+            showMath();
+            }
+            else if (prv_url.includes('code')){
+            showCode();
+            }
+        }
+
+
+
+        
+    </script>
+
+
+
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/smoothscroll/smooth-scroll.js"></script>
+    <script src="assets/ytplayer/index.js"></script>
+    <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+    <script src="assets/mbr-tabs/mbr-tabs.js"></script>
+    <script src="assets/theme/js/script.js"></script>
+    <script src="assets/formoid/formoid.min.js"></script>
+    <script src="main.js"></script>
+
+    <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i
+                class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+</body>
+
+</html>
